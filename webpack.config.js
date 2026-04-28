@@ -1,10 +1,10 @@
 const path = require("path")
 module.exports = {
     entry: [
-        "./build/babel/app.js",
-        "./build/babel/storage.js",
-        "./build/babel/categoryView.js",
-        "./build/babel/productView.js",
+        "./public/build/babel/app.js",
+        "./public/build/babel/storage.js",
+        "./public/build/babel/categoryView.js",
+        "./public/build/babel/productView.js",
     ],
     output: {
         path: path.resolve(__dirname, "build/webpack"),
