@@ -110,8 +110,8 @@
     "yaml": "^2.5.1"
   },
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./build/style.css --watch ",
-    "tailwind-minify": " npx tailwindcss -i ./src/css/tailwind.css -o ./build/style.css --minify  ",
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/style.css --watch ",
+    "tailwind-minify": " npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/style.css --minify  ",
     "app-babel": "babel src/js/app.js -o build/babel/app.js --presets @babel/preset-env ",
     "categoryView-babel": "babel src/js/categoryView.js -o build/babel/categoryView.js --presets @babel/preset-env  ",
     "productView-babel": "babel src/js/productView.js -o build/babel/productView.js --presets @babel/preset-env  ",
